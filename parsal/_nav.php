@@ -4,7 +4,7 @@
     <ul class="navlink">
         <li class="logo"><img src="image/taxi-car-1.jpg" alt="" width="100px"></li>
 
-        <li><a href="/TAXI/taxiindex.php">HOME</a></li>
+        <li><a href="/TAXI/index.html">HOME</a></li>
         <li><a href="/TAXI/about.php">ABOUT AS</a></li>
         <li><a href="/TAXI/vlog.php">VLOG</a></li>
         <li><a href="/TAXI/join as.php">JOIN AS driver</a></li>
