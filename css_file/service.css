@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+
+.head {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+
+.navlink {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    background-color: rgb(142, 177, 243);
+    background-size: auto;
+
+    /* width: 100vw; */
+
+}
+
+.navlink li a {
+    text-decoration: none;
+}
+
+.logo {
+    border: 2px solid;
+    border-radius: 8px;
+}
+
+.btn {
+    /* font-size: 1.5rem; */
+    /* background-color: darkgray; */
+    /* color: aliceblue; */
+    border: none;
+}
+
+/* center area  */
+.booking_service {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* .content-section {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 30px;
+} */
+
+.content-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.content-section p {
+    margin-bottom: 20px;
+}
+
+.content-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.content-section ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.content-section li {
+    margin-bottom: 5px;
+}
+
+.content-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* footer are  */
+.footer_ {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer-links ul li {
+    margin: 0 10px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-contact h4,
+.footer-social h4 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer-info p {
+    font-size: 12px;
+}
+
+.footer-social ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer-social ul li {
+    margin: 0 10px;
+}
+
+.footer-social ul li a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}

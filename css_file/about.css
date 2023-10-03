@@ -1,0 +1,182 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+
+.head {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+
+}
+
+.navlink {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    background-color: rgb(142, 177, 243);
+    background-size: auto;
+
+    /* width: 100vw; */
+
+}
+
+.navlink li a {
+    text-decoration: none;
+}
+
+.logo {
+    border: 2px solid;
+    border-radius: 8px;
+}
+
+.btn {
+    /* font-size: 1.5rem; */
+    /* background-color: darkgray; */
+    /* color: aliceblue; */
+    border: none;
+}
+
+/* CSS for the heading */
+.aboutbg {
+    background-image: url('about-image/about.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height:200px; */
+    height: 60vh;
+}
+
+.aboutbg h1 {
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 1rem;
+    margin-left: 40%;
+    font-size: 28px;
+    color: #c38383;
+
+    /* margin-bottom: 20px; */
+}
+
+/* CSS for the content */
+p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* CSS for the features section */
+.features {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.feature {
+    width: 80%;
+    text-align: center;
+}
+
+.feature img {
+    width: 40%;
+    height: 60%;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 15%;
+}
+
+.feature h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* CSS for the contact details */
+.contact-info {
+    margin-top: 30px;
+}
+
+.contact-info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* CSS for the transparency section */
+.transparency {
+    margin-top: 30px;
+    text-align: center;
+    height: 30vh;
+}
+
+.transparency h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.transparency p {
+    margin-bottom: 5px;
+}
+
+/* footer are  */
+.footer_ {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.footer-links ul li {
+    margin: 0 10px;
+}
+
+.footer-links ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-contact h4,
+.footer-social h4 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer-info p {
+    font-size: 12px;
+}
+
+.footer-social ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.footer-social ul li {
+    margin: 0 10px;
+}
+
+.footer-social ul li a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
